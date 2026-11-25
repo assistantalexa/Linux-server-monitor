@@ -4,6 +4,7 @@
 A beginner-friendly DevOps project that monitors Linux server health and automates monitoring and report generation using Bash scripting and Cron.
 
 ## Features
+
 - Monitor CPU usage
 - Monitor memory usage
 - Monitor disk usage
@@ -14,11 +15,20 @@ A beginner-friendly DevOps project that monitors Linux server health and automat
 - Record high-usage warnings in a separate alert log
 - Automate monitoring every 5 minutes using Cron
 - Generate daily reports at 11:00 PM using Cron
+- Monitor CPU usage using Python
+- Calculate memory usage using Python
+- Calculate disk usage using Python
+- Generate automated Python server health reports
+- Detect resource threshold violations using Python
+- Record Python alerts in a separate alert log
+- Schedule Python health reports daily at 10:00 PM using Cron
 
 ## Technologies Used
-- Linux (Ubuntu)
-- Bash Shell Scripting
-- Cron
+
+- Linux (Ubuntu / WSL)
+- Bash Scripting
+- Python 3
+- Cron Jobs
 - Git and GitHub
 
 ## Project Structure
